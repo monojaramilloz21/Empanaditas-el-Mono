@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Usuario - Empanaditas El Mono</title>
+
+<style>
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #FF9900;
+            border-bottom: #2a1f0f 2px solid;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #2a1f0f;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:bold;
+        }
+
+        body{
+            left: 0;
+            right: 0;
+            padding: 0;
+        }
+
+        li a:hover {
+             color:white;
+        }
+
+        h1, h2, h3, h4{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #2a1f0f;
+            text-align: center;
+        }
+
+        table tr td{
+            padding: 30px;
+        }
+
+        #header{
+            text-align: center !important;
+            white-space: nonwrap;
+        }
+
+        #element{
+            display: inline-block;
+            margin: 0 10px;
+        }
+        #container {
+             text-align: center;
+         }
+
+         #circle {
+            width: 200px;
+            height: 200px;
+            background-color: #FF9900; /* Circle color */
+            border-radius: 50%; /* Make it a circle */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff; /* Text color */
+            font-size: 24px;
+            margin-bottom: 20px; /* Space between circle and form */
+        }
+
+        #text {
+            color: #fff; /* Text color */
+            font-size: 18px;
+        }
+
+        #form {
+            margin-top: 20px; /* Space between circle and form */
+        }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    width: 250px;
+    padding: 10px;
+    background-color: #FF9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #forgot-password {
+    font-size: 14px;
+    color: #FF9900;
+    text-decoration: none;
+  }
+
+
+
+</style>
+
+</head>
+<body>
+
+    <center>
+        <ul>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/6003/6003958.png" style="width: 30px; margin-left: 5px; margin-top: 10px;" alt="icono empanadas"></li>
+            <li><a href="index.html">Empanaditas El Mono</a></li>
+            <li style="float:right;"><a href="#">
+                <span class="material-symbols-rounded">
+                    account_circle
+                    </span>
+            </a></li>
+            <li style="float:right"><a href="pago.html">
+                <span class="material-symbols-rounded">
+                    shopping_cart
+                    </span>
+            </a></li>
+            <li style="float:right; padding: 15px;"><input type="text" placeholder="buscar"></li>
+            <li style="float:right"><a href="pedidos.html">Pedidos</a></li>
+            <li style="float:right"><a href="nosotros.html">Nosotros</a></li>
+          </ul>
+    
+    </center>
+    
+    <center>
+            <div id="container" style="background-color: #6aa84f;">
+                <br><br><br><br><br><br><br> <br><br><br>
+                <center>
+                    <div id="circle">
+                        <img src="C:\Users\Mono\Desktop\codigo\imagenes\usuario.png" alt="perfil" width="385px">
+                </center>
+                <h1>Ingresa</h1>
+                
+                <form>
+                  <input type="text" name="Usuario" placeholder="Usuario" required><br>
+                  <input type="password" name="Contraseña" placeholder="Contraseña" required><br>
+                  <input type="submit" value="Ingresa"><br>
+                </form>
+               <h4>¿Olvidaste tu contraseña?</h4>
+                <br><br><br><br><br><br>
+              </div>
+              
+        
+    </center>
+</body>
+</html>
